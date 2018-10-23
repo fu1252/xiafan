@@ -1,0 +1,160 @@
+/***home******/
+div#topwrapper{
+	background:#fff url(../image/mainImg.jpg) no-repeat center top;
+	text-align: left;
+	position: relative;
+	width: 798px;
+	height: 598px;
+	border:1px solid #999;
+	margin:30px auto 10px;
+}
+div#topwrapper h1{
+	position: absolute;
+	top:130px;
+	right: 56px;
+	width: 265px;
+	height: 96px;
+}
+div#topwrapper ul#menu{
+	position: absolute;
+	top:257px;
+	right: 64px;
+}
+div#topwrapper ul#menu li{
+	width: 250px;
+	height: 40px;
+	padding-bottom: 3px;
+}
+/******inner page common********/
+div#wrapper{
+	border:1px solid #999;
+	background: #fff ;
+	width: 798px;
+	margin:30px auto 10px;
+	text-align: left;
+	position: relative;
+}
+div#wrapper h1{
+	margin:16px 19px 17px;
+}
+/*******menu******/
+div#wrapper ul#menu{
+	width:798px;
+	border-bottom: 1px solid #999;
+}
+div#wrapper ul#menu li{
+	float: left;
+	height: 26px;
+	
+}
+div#wrapper ul#menu li.line{
+	border-right: 1px solid #999;
+}
+/******contents******/
+div#wrapper div#contents{
+   background: #fff url(../image/innerImg.jpg) no-repeat right bottom;
+   height: 498px;
+   overflow: auto;
+   margin-left: 30px;
+}
+div#scrollarea{
+	position: relative;
+}
+/*****anchor****/
+div#contents ul#anchor{
+	width: 390px;
+	margin:15px 0px 19px 0px;
+}
+div#contents ul#anchor li{
+	font-size: 96%;
+	background: url(../image/arrow.gif)no-repeat left center;
+	padding-left: 20px;
+	display: inline-block;
+	margin-right: 20px;
+}
+/******page top*****/
+p.totop{
+	text-align:right;
+	margin: 20px 0px 10px;
+}
+/*****schedule******/
+div#schedule{
+	width: 390px;
+	margin-top: 20px;
+}
+div#schedule h3{
+	font-size: 96%;
+	padding: 0px 0px 3px 12px;
+	background: url(../image/midashi_bg.gif) no-repeat left bottom;
+
+}
+
+/******footer******/
+
+div#footer{
+	width:800px;
+	margin:0px auto;
+	padding-bottom: 20px;
+}
+div#footer p.newbox{
+	float: left;
+	background: url(../image/newsIcon.gif) no-repeat top left;
+	text-indent: 50px;
+}
+div#footer address{
+	text-align:right;
+	float: right;
+	width: 320px;
+}
+/******profile*******/
+div#profile{
+	width: 390px;
+	margin:23px 0px 10px 0px;
+}
+div#profile p{
+	float: left;
+	width: 159px;
+}
+div#profile dl{
+	float: right;
+	width: 205px;
+}
+div#profile dt{
+	position: absolute;
+	width: 81px;
+	height: 14px;
+}
+div#profile dd{
+	padding: 0px 0px 8px 93px;
+	height: 14px;
+}
+/*****history******/
+div#history{
+	width: 390px;
+	margin-top: 20px;
+}
+div#history h3{
+	font-size: 97%;
+	padding-left: 29px;
+	background: url(../image/midashi_bg.gif) no-repeat left bottom;
+	margin-bottom: 15px;
+}
+div#history h4{
+	width:60px;
+	position: absolute;
+	font-weight: normal;
+}
+div#history dl{
+	padding: 0px 0px 0.5em 65px;
+}
+div#history dt{
+	position: absolute;
+	width: 45px;
+}
+div#history dd{
+	padding: 0px 0px 1em 45px;
+}
+/*****message******/
+div#message{
+	width: 390px;
+}

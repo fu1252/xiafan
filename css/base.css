@@ -1,0 +1,55 @@
+/******** body*******/
+
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  color: #333;
+  margin:0px;
+  padding: 0px;
+  text-align: center;
+  background: url(../image/bg.jpg);
+  line-height: 1.2em;
+}
+
+/***link***/
+
+a{
+  color:#fc5786;
+}
+a:hover{
+  color:#39f;
+}
+
+/****default*****/
+h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,li{
+  padding: 0px;
+  margin:0px;
+  font-size: 83%;
+  line-height: 1.6m;
+}
+
+}
+img{
+  border: none;
+  vertical-align: top;
+}
+ul,li{
+  list-style: none;
+}
+
+/*******clearfix*****/
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{
+  display: inline-block;
+}
+
+
